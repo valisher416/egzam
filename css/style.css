@@ -196,8 +196,23 @@
     background-size: cover;
     margin-bottom: 120px;
 }
-
-
+.bton{
+    max-width: 149px;
+    width: 100%;
+    border: 1px solid #BB2339;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+.bton:hover{
+    background-color: #BB2339;
+    color: white;
+}
+.ikinchi-text{
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 77px;
+}
 
 
 
@@ -308,5 +323,26 @@
         flex-direction: column;
         gap: 40px;
         margin-top: 50px;
+    }
+}
+@media (max-width:600px) {
+    .nmn {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:1026px) {
+    .vv{
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width:600px) {
+    .vv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
 }
